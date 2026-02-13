@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ae8bac3c-c068-4b36-b080-272158f0b82d" name="Changes" comment="env file">
+      <change afterPath="$PROJECT_DIR$/firebase/firebasetodo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/firebase/firebasetodo/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/firebase/firebasetodo/eslint.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/firebase/firebasetodo/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/firebase/firebasetodo/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/firebase/firebasetodo/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/firebase/firebasetodo/public/vite.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/firebase/firebasetodo/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/firebase/firebasetodo/src/App.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/firebase/firebasetodo/src/assets/react.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/firebase/firebasetodo/src/components/AddTodo.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/firebase/firebasetodo/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/firebase/firebasetodo/src/main.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/firebase/firebasetodo/vite.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/metropolia-phpstorm.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firebase/firebasetodo/.env" beforeDir="false" afterPath="$PROJECT_DIR$/firebase/firebasetodo/.env" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="39bbR5bA88j6yIy5f5Q8F9oNy4C" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\PhpStorm 2025.2\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="ReactDesignerToolWindowState">
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.intellij.reactbuddy.reactComponents" value="false" />
+        <entry key="com.intellij.reactbuddy.reactInspector" value="false" />
+        <entry key="com.intellij.reactbuddy.storybook" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\anttg\PhpstormProjects\metropolia-reactjs\firebase\firebasetodo\src" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-e03c56caf84a-JavaScript-PS-252.23892.419" />
+        <option value="bundled-php-predefined-a98d8de5180a-c72577f2c82f-com.jetbrains.php.sharedIndexes-PS-252.23892.419" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ae8bac3c-c068-4b36-b080-272158f0b82d" name="Changes" comment="" />
+      <created>1770967706120</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1770967706120</updated>
+      <workItem from="1770967707578" duration="9424000" />
+    </task>
+    <task id="LOCAL−00001" summary="env file">
+      <option name="closed" value="true" />
+      <created>1770968281771</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1770968281771</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="env file" />
+    <option name="LAST_COMMIT_MESSAGE" value="env file" />
+  </component>
+</project>
