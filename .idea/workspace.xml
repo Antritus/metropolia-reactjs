@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae8bac3c-c068-4b36-b080-272158f0b82d" name="Changes" comment="Updates">
-      <change afterPath="$PROJECT_DIR$/testinganddeployment/testing/src/App.test.jsx" afterDir="false" />
+    <list default="true" id="ae8bac3c-c068-4b36-b080-272158f0b82d" name="Changes" comment="testing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firebase/bookstore/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/firebase/bookstore/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firebase/bookstore/src/components/AddTodo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/firebase/bookstore/src/components/AddTodo.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firebase/firebasetodo/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/firebase/firebasetodo/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firebase/firebasetodo/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/firebase/firebasetodo/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firebase/firebasetodo/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/firebase/firebasetodo/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testinganddeployment/testing/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/testinganddeployment/testing/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testinganddeployment/testing/src/App.test.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/testinganddeployment/testing/src/App.test.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,25 +30,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\PhpStorm 2025.1.3\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/anttg/Documents/GitHub/metropolia-reactjs/firebase/firebasetodo&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\PhpStorm 2025.1.3\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -63,6 +60,9 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\anttg\Documents\GitHub\metropolia-reactjs\firebase\firebasetodo" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\anttg\Documents\GitHub\metropolia-reactjs\firebase\firebasetodo\src" />
       <recent name="C:\Users\anttg\PhpstormProjects\metropolia-reactjs\firebase\firebasetodo\src" />
@@ -86,6 +86,8 @@
       <workItem from="1770967707578" duration="9424000" />
       <workItem from="1771589978711" duration="18000" />
       <workItem from="1771590006358" duration="9495000" />
+      <workItem from="1771601676327" duration="542000" />
+      <workItem from="1771604033017" duration="1285000" />
     </task>
     <task id="LOCAL−00001" summary="env file">
       <option name="closed" value="true" />
@@ -102,7 +104,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771594231032</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="testing">
+      <option name="closed" value="true" />
+      <created>1771601705462</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1771601705462</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,6 +121,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="env file" />
     <MESSAGE value="Updates" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updates" />
+    <MESSAGE value="testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="testing" />
   </component>
 </project>

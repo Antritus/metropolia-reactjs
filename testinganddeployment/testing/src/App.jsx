@@ -14,9 +14,14 @@ function App() {
         setTodo({description: '', date: '', status: ''});
     }
 
+    const deleteTodos = () => {
+        setTodos([]);
+    }
+
     return (
         <>
             <h3>My Todolist</h3>
+            <button className="delete-btn" onClick={deleteTodos}>Delete Todos</button>
             <input placeholder="Description" name="description" value={todo.description} onChange={inputChanged} />
             <input placeholder="Date" name="date" value={todo.date} onChange={inputChanged}/>
             <input placeholder="Status" name="status" value={todo.status} onChange={inputChanged}/>

@@ -23,3 +23,24 @@ test('add todo',() => {
     const table = screen.getByRole('table');
     expect(table).toHaveTextContent('Go to coffee');
 })
+
+test("delete todos", () => {
+    render(<App />);
+
+    fireEvent.change(screen.getByPlaceholderText('Description'), {
+        target: { value: 'Test todo' }
+    });
+    fireEvent.change(screen.getByPlaceholderText('Date'), {
+        target: { value: '29.12.2023' }
+    });
+    fireEvent.change(screen.getByPlaceholderText('Status'), {
+        target: { value: 'Open' }
+    });
+
+    fireEvent.click(screen.getByText('Add'));
+
+    fireEvent.click(screen.getByText('Delete Todos'));
+
+    const tbody = screen.getByRole('rowgroup');
+    expect(tbody).toBeEmptyDOMElement();
+});
