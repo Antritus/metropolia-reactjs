@@ -5,26 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae8bac3c-c068-4b36-b080-272158f0b82d" name="Changes" comment="env file">
-      <change afterPath="$PROJECT_DIR$/firebase/firebasetodo/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/firebase/firebasetodo/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/firebase/firebasetodo/eslint.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/firebase/firebasetodo/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/firebase/firebasetodo/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/firebase/firebasetodo/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/firebase/firebasetodo/public/vite.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/firebase/firebasetodo/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/firebase/firebasetodo/src/App.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/firebase/firebasetodo/src/assets/react.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/firebase/firebasetodo/src/components/AddTodo.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/firebase/firebasetodo/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/firebase/firebasetodo/src/main.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/firebase/firebasetodo/vite.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/metropolia-phpstorm.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/firebase/firebasetodo/src/firebase.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/firebase/firebasetodo/.env" beforeDir="false" afterPath="$PROJECT_DIR$/firebase/firebasetodo/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firebase/firebasetodo/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/firebase/firebasetodo/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firebase/firebasetodo/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/firebase/firebasetodo/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firebase/firebasetodo/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/firebase/firebasetodo/src/App.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,10 +24,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="39bbR5bA88j6yIy5f5Q8F9oNy4C" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -51,16 +37,18 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.lookFeel",
-    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\PhpStorm 2025.2\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\PhpStorm 2025.1.3\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -75,14 +63,15 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\anttg\Documents\GitHub\metropolia-reactjs\firebase\firebasetodo\src" />
       <recent name="C:\Users\anttg\PhpstormProjects\metropolia-reactjs\firebase\firebasetodo\src" />
     </key>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-e03c56caf84a-JavaScript-PS-252.23892.419" />
-        <option value="bundled-php-predefined-a98d8de5180a-c72577f2c82f-com.jetbrains.php.sharedIndexes-PS-252.23892.419" />
+        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-PS-251.26927.60" />
+        <option value="bundled-php-predefined-a98d8de5180a-e5747d4f5a45-com.jetbrains.php.sharedIndexes-PS-251.26927.60" />
       </set>
     </attachedChunks>
   </component>
@@ -94,6 +83,8 @@
       <option name="presentableId" value="Default" />
       <updated>1770967706120</updated>
       <workItem from="1770967707578" duration="9424000" />
+      <workItem from="1771589978711" duration="18000" />
+      <workItem from="1771590006358" duration="4131000" />
     </task>
     <task id="LOCAL−00001" summary="env file">
       <option name="closed" value="true" />
