@@ -18,22 +18,23 @@ function App() {
     const [todos, setTodos] = useState([]);
 
     const columnDefs = [
-        {field: "description", sortable: true, filter: true},
-        {field: "date", sortable: true, filter: true},
-        {field: "priority", sortable: true, filter: true},
+        {field: "title", sortable: true, filter: true},
+        {field: "author", sortable: true, filter: true},
+        {field: "year", sortable: true, filter: true},
+        {field: "isbn", sortable: true, filter: true},
+        {field: "price", sortable: true, filter: true},
         {
             headerName: '',
             field: 'id',
             width: 90,
             cellRenderer: params =>
-                <IconButton onClick={() => deleteTodo(params.value)} size="small" color="error">
+                <IconButton onClick={() => deleteVal(params)} size="small" color="error">
                     <DeleteIcon />
                 </IconButton>,
             sortable: true
         }
     ];
     const fetchItems = async () => {
-        console.log(import.meta.env.VITE_API_URL)
         try {
             const response = await fetch(
                 import.meta.env.VITE_API_URL
@@ -47,10 +48,12 @@ function App() {
             }
 
             const actualData = data.documents.map(doc => ({
-                description: doc.fields?.description?.stringValue || "",
-                date: doc.fields?.date?.stringValue || "",
-                priority: doc.fields?.priority?.stringValue || "",
-                value: fixId(doc.fields?.name || "")
+                title: doc.fields?.title?.stringValue || "",
+                author: doc.fields?.author?.stringValue || "",
+                year: doc.fields?.year?.stringValue || "",
+                isbn: doc.fields?.isbn?.stringValue || "",
+                price: doc.fields?.price?.stringValue || "",
+                id: fixId(doc.name || "")
             }));
 
             setTodos(actualData);
@@ -59,16 +62,22 @@ function App() {
         }
     };
 
-    const addTodo = (newTodo) => {
+    const addTodo = (newItem) => {
         let fields = {
-            "description": {
-                "stringValue": newTodo.description,
+            "title": {
+                "stringValue": newItem.title,
             },
-            "priority": {
-                "stringValue": newTodo.priority,
+            "author": {
+                "stringValue": newItem.author,
             },
-            "date": {
-                "stringValue": newTodo.date,
+            "year": {
+                "stringValue": newItem.year,
+            },
+            "isbn": {
+                "stringValue": newItem.isbn,
+            },
+            "price": {
+                "stringValue": newItem.price,
             }
         };
 
@@ -85,11 +94,12 @@ function App() {
     }
 
     const fixId = (name) => {
-        return name.substring(name.lastIndexOf("/"), name.length);
+        return name.substring(name.lastIndexOf("/")+1, name.length);
     }
 
-    const deleteTodo = (id) => {
-        const url = `${import.meta.env.VITE_API_URL}/${id}.json`
+    const deleteVal = (data) => {
+        const id = data.data.id;
+        const url = `${import.meta.env.VITE_API_URL}/${id}`
         fetch(url,
             {
                 method: 'DELETE',
@@ -108,12 +118,12 @@ function App() {
                 <AppBar position="static">
                     <Toolbar>
                         <Typography variant="h5">
-                            TodoList
+                            Bookstore
                         </Typography>
                     </Toolbar>
                 </AppBar>
                 <AddTodo addTodo={addTodo}/>
-                <div className="ag-theme-alpine" style={{height: 500, width: 700, justifyContent: "center"}}>
+                <div className="ag-theme-alpine" style={{height: 500, width: 1100, justifyContent: "center"}}>
                     <AgGridReact
                         theme="legacy"
                         rowData={todos}

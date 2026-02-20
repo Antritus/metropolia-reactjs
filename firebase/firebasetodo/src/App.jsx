@@ -85,7 +85,7 @@ function App() {
     }
 
     const fixId = (name) => {
-        return name.substring(name.lastIndexOf("/"), name.length);
+        return name.substring(name.lastIndexOf("/")+1, name.length);
     }
 
     const deleteTodo = (id) => {

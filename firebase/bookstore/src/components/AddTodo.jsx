@@ -3,7 +3,7 @@ import {useState} from "react";
 
 function AddTodo(props) {
     const [open, setOpen] = useState(false);
-    const [todo, setTodo] = useState({description: "", date: "", priority: ""})
+    const [todo, setTodo] = useState({title: "", author: "", year: "", isbn: "", price: ""})
 
     const handleOpen = () => {
         setOpen(true);
@@ -29,27 +29,43 @@ function AddTodo(props) {
                 <DialogTitle>New todo</DialogTitle>
                 <DialogContent>
                     <TextField
-                        name="description"
-                        value={todo.description}
+                        name="title"
+                        value={todo.title}
                         onChange={inputChanged}
                         margin="dense"
-                        label="description"
+                        label="title"
                         fullWidth
                     />
                     <TextField
-                        name="date"
-                        value={todo.date}
+                        name="author"
+                        value={todo.author}
                         onChange={inputChanged}
                         margin="dense"
-                        label="date"
+                        label="author"
                         fullWidth
                     />
                     <TextField
-                        name="priority"
-                        value={todo.priority}
+                        name="year"
+                        value={todo.year}
                         onChange={inputChanged}
                         margin="dense"
-                        label="priority"
+                        label="year"
+                        fullWidth
+                    />
+                    <TextField
+                        name="isbn"
+                        value={todo.isbn}
+                        onChange={inputChanged}
+                        margin="dense"
+                        label="isbn"
+                        fullWidth
+                    />
+                    <TextField
+                        name="price"
+                        value={todo.price}
+                        onChange={inputChanged}
+                        margin="dense"
+                        label="price"
                         fullWidth
                     />
                 </DialogContent>

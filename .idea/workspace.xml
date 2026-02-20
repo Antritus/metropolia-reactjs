@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae8bac3c-c068-4b36-b080-272158f0b82d" name="Changes" comment="env file">
-      <change afterPath="$PROJECT_DIR$/firebase/firebasetodo/src/firebase.js" afterDir="false" />
+    <list default="true" id="ae8bac3c-c068-4b36-b080-272158f0b82d" name="Changes" comment="Updates">
+      <change afterPath="$PROJECT_DIR$/testinganddeployment/testing/src/App.test.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firebase/firebasetodo/.env" beforeDir="false" afterPath="$PROJECT_DIR$/firebase/firebasetodo/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firebase/bookstore/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/firebase/bookstore/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firebase/bookstore/src/components/AddTodo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/firebase/bookstore/src/components/AddTodo.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/firebase/firebasetodo/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/firebase/firebasetodo/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/firebase/firebasetodo/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/firebase/firebasetodo/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/firebase/firebasetodo/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/firebase/firebasetodo/src/App.jsx" afterDir="false" />
@@ -84,7 +85,7 @@
       <updated>1770967706120</updated>
       <workItem from="1770967707578" duration="9424000" />
       <workItem from="1771589978711" duration="18000" />
-      <workItem from="1771590006358" duration="4131000" />
+      <workItem from="1771590006358" duration="9495000" />
     </task>
     <task id="LOCAL−00001" summary="env file">
       <option name="closed" value="true" />
@@ -93,7 +94,15 @@
       <option name="presentableId" value="LOCAL−00001" />
       <updated>1770968281771</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Updates">
+      <option name="closed" value="true" />
+      <created>1771594231032</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1771594231032</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,6 +110,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="env file" />
-    <option name="LAST_COMMIT_MESSAGE" value="env file" />
+    <MESSAGE value="Updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updates" />
   </component>
 </project>
